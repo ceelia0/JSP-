@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>财务管理</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+			transition: all 0.5s ease;
+			border: 0;
+			outline: none;
+		}
+
+		body {
+			background: rgb(37, 37, 37);
+		}
+
+		main {
+			display: grid;
+			place-items: center;
+			min-height: 100vh;
+		}
+
+		.login-box {
+			max-width: 25rem;
+			background: rgb(59, 46, 46);
+			padding: 3rem;
+			border-radius: 3rem;
+		}
+
+		.row {
+			margin: 3rem 0;
+			color: azure;
+		}
+
+		button {
+			padding: .1rem 2rem;
+			margin: 0 .5rem;
+			color: rgb(0, 77, 30);
+			font-size: 1.4rem;
+			font-weight: 900;
+			min-width: 8rem;
+		}
+
+		button:hover {
+			background: rgb(231, 156, 85);
+			outline: 4px solid rgb(207, 80, 80);
+		}
+
+		label {
+			color: rgb(142, 193, 238);
+			margin-right: 1rem;
+			font-size: 1.3rem;
+		}
+
+		input {
+			padding: .3rem .3rem;
+			border: 0;
+			outline: none;
+		}
+
+		input:hover {
+			background: rgb(231, 156, 85);
+			outline: 4px solid rgb(207, 80, 80);
+		}
+
+		h2 {
+			margin: 0;
+			font-size: 2rem;
+			color: rgb(243, 112, 112);
+		}
+
+		h2:hover {
+			font-size: 2.3rem;
+		}
+	</style>
+</head>
+
+<body>
+
+	<main>
+		<div class="login-box">
+			<h2>Ceelia 管理</h2>
+			<form action="login" method="post">
+				<div class="row"><label>帐号</label><input type="text" name="uname" /></div>
+				<div class="row"><label>密码</label><input type="password" name="upass" /></div>
+				<button type="submit">登陆</button>
+				<button id="regist">注册</button>
+			</form>
+		</div>
+	</main>
+	<script>
+		document.getElementById("regist").onclick = function () {
+			location = "./regist"
+		}
+	</script>
+</body>
+
+</html>

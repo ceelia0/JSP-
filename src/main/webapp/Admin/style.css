@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.5s ease;
+  border: 0;
+  outline: none;
+  color: aliceblue;
+}
+
+body {
+  background: rgb(37, 37, 37) !important;
+  min-height: 30rem;
+}
+
+nav {
+  display: grid;
+  place-items: center;
+  padding: 1em;
+  grid-template-columns: auto auto auto auto;
+  border-bottom: 3px solid rgb(219, 238, 53);
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(46, 48, 39);
+  background: rgb(129, 236, 79);
+  height: 3em;
+  width: 7em;
+  padding: 1.2rem;
+  font-weight: 900;
+}
+a:hover {
+  color: rgb(255, 71, 46);
+  background: rgb(65, 237, 243);
+}
+a:visited {
+  color: rgb(105, 11, 11);
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(220, 240, 109);
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  height: 3rem;
+  min-width: 40%;
+  border-radius: 3rem;
+  color: rgb(0, 67, 126);
+  background: rgb(135, 226, 139);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
