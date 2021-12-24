@@ -57,6 +57,7 @@ public class income {
 	}
 
 	public double getReal() {
-		return min + merit + allo - ponins - heains;
+		double result = min + merit + allo - heains - ponins;
+		return (double) Math.round(result * 100) / 100;
 	}
 }
