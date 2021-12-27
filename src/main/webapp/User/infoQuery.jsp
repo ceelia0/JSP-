@@ -98,7 +98,6 @@
 					<th>绩效工资</th>
 					<th>养老保险</th>
 					<th>医疗保险</th>
-					<th>操作</th>
 				</tr>
 			</thead>
 			<tbody>

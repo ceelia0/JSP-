@@ -1,49 +1,50 @@
 .box-container {
-  margin-top: 5rem;
-  display: grid;
-  place-items: center;
+	margin-top: 5rem;
+	display: grid;
+	place-items: center;
 }
 
 .box {
-  min-width: 15rem;
-  min-height: 10rem;
-  background: bisque;
-  margin: 2rem;
-  font-size: 1.3rem;
-  color: rgb(106, 185, 255);
-  font-weight: 800;
+	min-width: 15rem;
+	min-height: 10rem;
+	background: bisque;
+	margin: 2rem;
+	font-size: 1.3rem;
+	color: rgb(106, 185, 255);
+	font-weight: 800;
 }
 
 .pic1 {
-  background-image: url("../images/pexels-garrison-gao-7884213.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(-20deg);
+	background-image: url("../images/pexels-garrison-gao-7884213.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(-20deg);
 }
 
 .pic2 {
-  background-image: url("../images/pexels-kulbir-8285569.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(20deg);
+	background-image: url("../images/pexels-kulbir-8285569.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(20deg);
 }
 
 .pic3 {
-  background-image: url("../images/pexels-rodrigo-pederzini-9456595.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: rotate(-15deg);
+	background-image: url("../images/pexels-rodrigo-pederzini-9456595.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(-15deg);
 }
-main{
-  display: grid;
-  place-items: center;
+
+main {
+	display: grid;
+	place-items: center;
 }
-input{
-  color: rgb(25, 37, 48);
-  margin: 1rem;
-  padding: .3rem;
-  
+
+input {
+	color: rgb(25, 37, 48);
+	margin: 1rem;
+	padding: .3rem;
 }
